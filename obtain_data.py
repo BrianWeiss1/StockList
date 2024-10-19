@@ -49,3 +49,7 @@ def get_data(timeFrame="5"):
 
     print(f"Data saved to {timeFrame}min_data_SPY_2019_to_2024.csv")
     print(full_data)
+    
+if __name__ == '__main__':
+    get_data("30")
+    
